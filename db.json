@@ -1,34 +1,50 @@
 {
-  "article": [
+  "shop": [
     {
       "id": 1,
-      "title": "Nuevo artículo",
-      "category": "Novedades",
-      "description": "Cuerpo del artículo",
-      "release_date": "10/05/2022",
-      "label": "Portada"
-    }
-  ],
-  "category": [
-    {
-      "id": 1,
-      "title": "Novedades"
+      "address": "Calle Juan Martín",
+      "type": "frutería",
+      "nombre": "Lola Castro Frutas",
+      "latitude": 37.880273,
+      "longitude": -4.792098
     },
     {
       "id": 2,
-      "title": "Destacado"
+      "address": "Calle Pepe Cruz",
+      "type": "supermercado",
+      "nombre": "Ultramarinos Lolo Castro",
+      "latitude": 37.862323,
+      "longitude": -4.77812
     },
     {
       "id": 3,
-      "title": "Histórico"
+      "address": "Avenida de la Cruz",
+      "type": "pescadería",
+      "nombre": "Pescados El Boquerón",
+      "latitude": 37.856273,
+      "longitude": -4.776992
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "manzanas",
+      "shopId": 1
+    },
+    {
+      "id": 2,
+      "name": "peras",
+      "shopId": 1
+    },
+    {
+      "id": 3,
+      "name": "escoba",
+      "shopId": 2
     },
     {
       "id": 4,
-      "title": "Otras noticias"
-    },
-    {
-      "id": 5,
-      "title": "Publicidad"
+      "name": "detergente",
+      "shopId": 2
     }
   ]
 }
