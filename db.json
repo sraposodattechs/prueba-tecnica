@@ -1,0 +1,34 @@
+{
+  "article": [
+    {
+      "id": 1,
+      "title": "Nuevo artículo",
+      "category": "Novedades",
+      "description": "Cuerpo del artículo",
+      "release_date": "10/05/2022",
+      "label": "Portada"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "title": "Novedades"
+    },
+    {
+      "id": 2,
+      "title": "Destacado"
+    },
+    {
+      "id": 3,
+      "title": "Histórico"
+    },
+    {
+      "id": 4,
+      "title": "Otras noticias"
+    },
+    {
+      "id": 5,
+      "title": "Publicidad"
+    },
+  ]
+}
